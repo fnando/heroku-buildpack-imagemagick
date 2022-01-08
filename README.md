@@ -11,6 +11,7 @@ First, make sure you have all heroku CLI plugins:
 
 1. `heroku plugins:install buildpacks`
 2. `heroku plugins:install buildpack-registry`
+3. `heroku plugins:install heroku-repo`
 
 In your project root:
 
@@ -26,5 +27,4 @@ Go to https://www.imagemagick.org/download/releases and find a version you want 
 
 Since the installation is cached you might want to clean it out due to config changes.
 
-1. `heroku plugins:install heroku-repo`
-2. `heroku repo:purge_cache -app HEROKU_APP_NAME`
+1. `heroku repo:purge_cache -app HEROKU_APP_NAME`
